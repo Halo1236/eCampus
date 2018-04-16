@@ -1,4 +1,4 @@
-package com.ayhalo.e_campus;
+package com.ayhalo.ecampus;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
