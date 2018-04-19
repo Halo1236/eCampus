@@ -41,7 +41,6 @@ public class MainActivity extends BaseActivity {
     protected void initViews(Bundle savedInstanceState) {
         viewPager = findView(R.id.main_viewpager);
         tabLayoutView = findView(R.id.main_tabview);
-        setDisplayHomeAsUpEnabled(true);
         initFragments();
         tabLayoutView.setDataSource(tabtxts, imgs, imgsselect, 0);
         tabLayoutView.setImageStyle(16, 16);

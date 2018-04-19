@@ -1,15 +1,17 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion rootProject.ext.CompileSdkVersion
+    buildToolsVersion rootProject.ext.BuildToolsVersion
+
     defaultConfig {
-        applicationId "com.ayhalo.e_campus"
-        minSdkVersion 16
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        applicationId "com.ayhalo.ecampus"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.releaseVersionCode
+        versionName rootProject.ext.releaseVersionName
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -33,6 +35,12 @@ android {
             dirs 'libs'
         }
     }
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
 }
 
 dependencies {
@@ -51,7 +59,7 @@ dependencies {
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
     compile 'com.google.code.gson:gson:2.2.4'
     //富文本
-    compile 'com.zzhoujay.richtext:richtext:3.0.7'
+    compile 'com.zzhoujay.richtext:richtext:2.5.2'
     compile 'com.zzhoujay.okhttpimagedownloader:OkHttpImageDownloader:1.0.0'
     compile 'com.zzhoujay:html:1.0.1'
     compile 'com.android.support:design:26.+'

@@ -44,7 +44,39 @@ public class ChannelAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         final Topic.ResultsBean item = datas.get(position);
         if (holder instanceof ChannelAdapter.Holder) {
             ((Holder) holder).title.setText(item.getTitle());
-            ((Holder) holder).publisher_time.setText(item.getPublish_time());
+            String publisher = "";
+            switch (item.getBelong()) {
+                case "sie":
+                    publisher = "信息工程学院";
+                    break;
+                case "bs":
+                    publisher = "商学院";
+                    break;
+                case "fzxy":
+                    publisher = "法政学院";
+                    break;
+                case "wlxy":
+                    publisher = "文理学院";
+                    break;
+                case "jgxy":
+                    publisher = "建筑工程学院";
+                    break;
+                case "wy":
+                    publisher = "外国语学院";
+                    break;
+                case "jd":
+                    publisher = "机电工程学院";
+                    break;
+                case "art":
+                    publisher = "艺术与传媒学院";
+                    break;
+                case "tyb":
+                    publisher = "体育部";
+                    break;
+                default:
+                    publisher = "宿迁学院";
+            }
+            ((Holder) holder).publisher_time.setText(String.format("%s   %s", item.getPublish_time(), publisher));
             ((ChannelAdapter.Holder) holder).itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

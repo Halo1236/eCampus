@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/call_from_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#bfbfbf"
+        android:textSize="24sp"
+        android:text="Halo"
+        android:layout_marginTop="48dp"/>
+
+
+    <Chronometer
+        android:id ="@+id/connect_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttons_connect_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:textColor="#bfbfbf"
+        android:format="00:00"/>
+
+
+    <LinearLayout
+        android:id="@+id/buttons_connect_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/button_connect_disconnect"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="48dp"
+            android:background="@drawable/disconnect" />
+
+        <ImageButton
+            android:id="@+id/button_connect_connect"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/connect"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

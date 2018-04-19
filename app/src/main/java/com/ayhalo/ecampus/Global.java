@@ -8,8 +8,9 @@ package com.ayhalo.ecampus;
 public class Global {
 
     public static final String HOST = "http://192.168.2.161:5000/";
-    public static final String NEWSURL = HOST + "api/topic/data/10/1/0/json";
-    public static final String NOTICESURL = HOST + "api/topic/data/10/1/1/json";
+    public static final String NEWSURL = HOST + "api/topic/data/20/1/0/json";
+    public static final String NOTICESURL = HOST + "api/topic/data/20/1/1/json";
 
     public static final int NEWSWHAT = 100;
+    public static final int ARTICLEWHAT = 101;
 }

@@ -1,0 +1,458 @@
+12-14 08:58:45.902 3000-3000/org.appspot.apprtc D/ConnectActivity: Connecting to room 8696422999999 at URL http://192.168.2.246:8080
+12-14 08:58:45.951 3000-3000/org.appspot.apprtc I/EglBase14: EglBase14: SDK version: 23. isEGL14Supported: true
+12-14 08:58:45.952 3000-3000/org.appspot.apprtc I/EglRenderer: EglRenderer: pip_video_viewInitializing EglRenderer
+12-14 08:58:45.959 3000-8350/org.appspot.apprtc I/EglRenderer: EglRenderer: pip_video_viewEglBase.create shared context
+12-14 08:58:45.959 3000-8350/org.appspot.apprtc I/EglBase14: EglBase14: SDK version: 23. isEGL14Supported: true
+12-14 08:58:45.962 3000-3000/org.appspot.apprtc I/EglRenderer: EglRenderer: fullscreen_video_viewInitializing EglRenderer
+12-14 08:58:45.965 3000-8351/org.appspot.apprtc I/EglRenderer: EglRenderer: fullscreen_video_viewEglBase.create shared context
+12-14 08:58:45.966 3000-8351/org.appspot.apprtc I/EglBase14: EglBase14: SDK version: 23. isEGL14Supported: true
+12-14 08:58:45.967 3000-3000/org.appspot.apprtc I/CallRTCClient: CallRTCClient: setSwappedFeeds: true
+12-14 08:58:45.968 3000-3000/org.appspot.apprtc I/EglRenderer: EglRenderer: fullscreen_video_viewsetMirror: true
+12-14 08:58:45.968 3000-3000/org.appspot.apprtc I/EglRenderer: EglRenderer: pip_video_viewsetMirror: false
+12-14 08:58:45.970 3000-3000/org.appspot.apprtc D/CallRTCClient: Room ID: 8696422999999
+12-14 08:58:45.971 3000-3000/org.appspot.apprtc D/CallRTCClient: VIDEO_FILE: 'null'
+12-14 08:58:45.975 3000-3000/org.appspot.apprtc D/CpuMonitor: CpuMonitor ctor.
+12-14 08:58:45.977 3000-3000/org.appspot.apprtc D/CallRTCClient: Connecting to: http://192.168.2.246:8080
+12-14 08:58:45.977 3000-3143/org.appspot.apprtc D/PCRTCClient: Preferred video codec: VP8
+12-14 08:58:45.977 3000-3143/org.appspot.apprtc D/PCRTCClient: Initialize WebRTC. Field trials: WebRTC-IntelVP8/Enabled/VideoFrameEmit/Enabled/ Enable video HW acceleration: true
+12-14 08:58:45.978 3000-3143/org.appspot.apprtc I/NativeLibrary: NativeLibrary: Native library has already been loaded.
+12-14 08:58:45.979 3000-3143/org.appspot.apprtc I/libjingle: (peerconnectionfactory_jni.cc:90): initializeFieldTrials: WebRTC-IntelVP8/Enabled/VideoFrameEmit/Enabled/
+12-14 08:58:45.983 3000-3143/org.appspot.apprtc I/libjingle: (peerconnectionfactory_jni.cc:121): Starting internal tracing to: /storage/emulated/0/webrtc-trace.txt
+12-14 08:58:45.996 3000-8352/org.appspot.apprtc D/WSRTCClient: Connect to room: http://192.168.2.246:8080/join/8696422999999
+12-14 08:58:45.996 3000-8352/org.appspot.apprtc D/RoomRTCClient: Connecting to room: http://192.168.2.246:8080/join/8696422999999
+
+
+12-14 08:58:46.148 3000-8358/org.appspot.apprtc D/RoomRTCClient: Room response: {"params": {"is_loopback": "false", "offer_options": "{}", "bypass_join_confirmation": "false", "turn_server_override": [{"urls": ["turn:blueslug.cc"], "username": "greendog", "credential": "greendogpassword"}, {"urls": ["stun:blueslug.cc"]}], "pc_constraints": "{\"optional\": []}", "media_constraints": "{\"video\": true, \"audio\": true}", "wss_post_url": "http://192.168.2.246:8089", "ice_server_transports": "", "room_id": "8696422999999", "room_link": "http://192.168.2.246:8080/r/8696422999999", "client_id": "45399336", "is_initiator": "true", "turn_url": "https://blueslug.cc/turn?username=45399336&key=4080218913", "warning_messages": [], "pc_config": "{\"iceServers\": [], \"rtcpMuxPolicy\": \"require\", \"bundlePolicy\": \"max-bundle\"}", "version_info": "{\"gitHash\": \"220922186343cdd893abef3fc6bc7397bd811134\", \"branch\": \"master\", \"time\": \"Mon Nov 13 15:00:35 2017 +0100\"}", "wss_url": "ws://192.168.2.246:8089/ws", "ice_server_url": "https://networktraversal.googleapis.com/v1alpha/iceconfig?key=none", "messages": [], "include_rtstats_js": "", "error_messages": [], "include_loopback_js": "", "callstats_params": "{\"appId\": \"none\", \"appSecret\": \"none\"}"}, "result": "SUCCESS"}
+12-14 08:58:46.150 3000-8358/org.appspot.apprtc D/RoomRTCClient: RoomId: 8696422999999. ClientId: 45399336
+12-14 08:58:46.150 3000-8358/org.appspot.apprtc D/RoomRTCClient: Initiator: true
+12-14 08:58:46.150 3000-8358/org.appspot.apprtc D/RoomRTCClient: WSS url: ws://192.168.2.246:8089/ws
+12-14 08:58:46.150 3000-8358/org.appspot.apprtc D/RoomRTCClient: WSS POST url: http://192.168.2.246:8089
+12-14 08:58:46.151 3000-8352/org.appspot.apprtc D/WSRTCClient: Room connection completed.
+12-14 08:58:46.151 3000-8352/org.appspot.apprtc D/WSRTCClient: Message URL: http://192.168.2.246:8080/message/8696422999999/45399336
+12-14 08:58:46.151 3000-8352/org.appspot.apprtc D/WSRTCClient: Leave URL: http://192.168.2.246:8080/leave/8696422999999/45399336
+12-14 08:58:46.151 3000-8352/org.appspot.apprtc D/WSChannelRTCClient: Connecting WebSocket to: ws://192.168.2.246:8089/ws. Post URL: http://192.168.2.246:8089
+12-14 08:58:46.151 3000-8352/org.appspot.apprtc D/de.tavendo.autobahn.WebSocketConnection: WebSocket connection created.
+12-14 08:58:46.165 3000-8352/org.appspot.apprtc D/de.tavendo.autobahn.WebSocketReader: WebSocket reader created.
+12-14 08:58:46.167 3000-8352/org.appspot.apprtc D/de.tavendo.autobahn.WebSocketConnection: WebSocket reader created and started.
+12-14 08:58:46.167 3000-8373/org.appspot.apprtc D/de.tavendo.autobahn.WebSocketReader: WebSocker reader running.
+12-14 08:58:46.167 3000-8352/org.appspot.apprtc D/de.tavendo.autobahn.WebSocketWriter: WebSocket writer created.
+12-14 08:58:46.170 3000-8374/org.appspot.apprtc D/de.tavendo.autobahn.WebSocketWriter: WebSocker writer running.
+12-14 08:58:46.170 3000-8352/org.appspot.apprtc D/de.tavendo.autobahn.WebSocketConnection: WebSocket writer created and started.
+12-14 08:58:46.170 3000-8352/org.appspot.apprtc W/WSChannelRTCClient: WebSocket register() in state NEW
+12-14 08:58:46.185 3000-8373/org.appspot.apprtc W/de.tavendo.autobahn.WebSocketReader: Status: 101 (Switching Protocols)
+12-14 08:58:46.185 3000-8352/org.appspot.apprtc D/de.tavendo.autobahn.WebSocketConnection: opening handshake received
+12-14 08:58:46.186 3000-8352/org.appspot.apprtc D/WSChannelRTCClient: WebSocket connection opened to: ws://192.168.2.246:8089/ws
+12-14 08:58:46.186 3000-8352/org.appspot.apprtc D/WSChannelRTCClient: Registering WebSocket for room 8696422999999. ClientID: 45399336
+12-14 08:58:46.186 3000-8352/org.appspot.apprtc D/WSChannelRTCClient: C->WSS: {"cmd":"register","roomid":"8696422999999","clientid":"45399336"}
+
+
+12-13 11:34:44.556 5828-5892/org.appspot.apprtc I/libjingle: (transportcontroller.cc:923):  Transport sdparta_0 writability changed to 0.
+12-13 11:34:44.556 5828-5894/org.appspot.apprtc I/libjingle: (peerconnection.cc:2433): Changing IceConnectionState 2 => 5
+12-13 11:34:44.557 5828-5892/org.appspot.apprtc I/libjingle: (channel.cc:739): Channel not writable (sdparta_0)
+12-13 11:34:44.557 5828-5892/org.appspot.apprtc I/libjingle: (channel.cc:739): Channel not writable (sdparta_1)
+12-13 11:34:44.558 5828-5893/org.appspot.apprtc I/libjingle: (channel.cc:1414): Changing voice state, recv=1 send=1
+12-13 11:34:44.558 5828-5893/org.appspot.apprtc I/libjingle: (video_send_stream.cc:599): VideoSendStream::Start
+12-13 11:34:44.558 5828-5905/org.appspot.apprtc I/libjingle: (video_send_stream.cc:874): VideoSendStream::Start
+12-13 11:34:44.559 5828-5893/org.appspot.apprtc I/libjingle: (channel.cc:1668): Changing video state, send=1
+12-13 11:34:44.569 5828-5876/org.appspot.apprtc D/PCRTCClient: IceConnectionState: DISCONNECTED
+12-13 11:34:44.580 5828-5828/org.appspot.apprtc D/CallRTCClient: ICE disconnected
+12-13 11:34:44.605 5828-5892/org.appspot.apprtc E/libjingle: (stunport.cc:279): Jingle:Port[0xa0274600:sdparta_0:1:0:local:Net[wlan0:192.168.2.x/24:Wifi]]: UDP send of 100 bytes failed with error 11
+12-13 11:34:44.605 5828-5892/org.appspot.apprtc W/libjingle: (port.cc:1037): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Failed to send STUN ping  err=-1 id=73423034414e6e4b2f50566f
+12-13 11:34:44.605 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=73423034414e6e4b2f50566f, use_candidate=0, nomination=0
+12-13 11:34:44.653 5828-5892/org.appspot.apprtc E/libjingle: (stunport.cc:279): Jingle:Port[0xa0274600:sdparta_0:1:0:local:Net[wlan0:192.168.2.x/24:Wifi]]: UDP send of 100 bytes failed with error 11
+12-13 11:34:44.653 5828-5892/org.appspot.apprtc W/libjingle: (port.cc:1037): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Failed to send STUN ping  err=-1 id=736574345744776a6e494463
+12-13 11:34:44.653 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=736574345744776a6e494463, use_candidate=0, nomination=0
+12-13 11:34:44.669 5828-5893/org.appspot.apprtc I/libjingle: (remote_ntp_time_estimator.cc:73): RTP timestamp: 968760536 in NTP clock: 3722124884159 estimated time in receiver clock: 6476820 converted to NTP clock: 3722124884064
+12-13 11:34:44.703 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=4d52557064694e4e58684b57, use_candidate=0, nomination=0
+12-13 11:34:44.743 5828-5828/org.appspot.apprtc I/EglRenderer: EglRenderer: pip_video_viewReleasing.
+12-13 11:34:44.751 5828-5874/org.appspot.apprtc D/WSRTCClient: Disconnect. Room state: CONNECTED
+12-13 11:34:44.751 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=70306c6235537063336c4845, use_candidate=0, nomination=0
+12-13 11:34:44.754 5828-5874/org.appspot.apprtc D/WSRTCClient: Closing room.
+12-13 11:34:44.761 5828-5908/org.appspot.apprtc I/CallRTCClient: CallRTCClient: Dropping frame in proxy because target is null.
+12-13 11:34:44.789 5828-5874/org.appspot.apprtc D/WSRTCClient: C->GAE: http://192.168.2.246:8080/leave/869642298/97152881
+12-13 11:34:44.800 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=6c343358426f4d674a785079, use_candidate=0, nomination=0
+12-13 11:34:44.816 5828-5874/org.appspot.apprtc D/WSChannelRTCClient: Disconnect WebSocket. State: REGISTERED
+12-13 11:34:44.825 5828-5908/org.appspot.apprtc I/CallRTCClient: CallRTCClient: Dropping frame in proxy because target is null.
+12-13 11:34:44.832 5828-5874/org.appspot.apprtc D/WSChannelRTCClient: C->WSS: {"cmd":"send","msg":"{\"type\": \"bye\"}"}
+12-13 11:34:44.842 5828-5874/org.appspot.apprtc D/WSChannelRTCClient: WS DELETE : http://192.168.2.246:8089/869642298/97152881 : 
+12-13 11:34:44.849 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=6a7958787677365657336943, use_candidate=0, nomination=0
+12-13 11:34:44.850 5828-5872/org.appspot.apprtc I/GlShader: GlShader: Deleting shader.
+12-13 11:34:44.864 5828-5872/org.appspot.apprtc I/EglRenderer: EglRenderer: pip_video_vieweglBase detach and release.
+12-13 11:34:44.868 5828-5872/org.appspot.apprtc I/EglRenderer: EglRenderer: pip_video_viewQuitting render thread.
+12-13 11:34:44.868 5828-5828/org.appspot.apprtc I/EglRenderer: EglRenderer: pip_video_viewReleasing done.
+12-13 11:34:44.869 5828-5828/org.appspot.apprtc I/EglRenderer: EglRenderer: fullscreen_video_viewReleasing.
+12-13 11:34:44.869 5828-5873/org.appspot.apprtc I/GlShader: GlShader: Deleting shader.
+12-13 11:34:44.879 5828-5873/org.appspot.apprtc I/EglRenderer: EglRenderer: fullscreen_video_vieweglBase detach and release.
+12-13 11:34:44.886 5828-5873/org.appspot.apprtc I/EglRenderer: EglRenderer: fullscreen_video_viewQuitting render thread.
+12-13 11:34:44.886 5828-5828/org.appspot.apprtc I/EglRenderer: EglRenderer: fullscreen_video_viewReleasing done.
+12-13 11:34:44.889 5828-5828/org.appspot.apprtc D/AppRTCAudioManager: stop
+12-13 11:34:44.889 5828-5876/org.appspot.apprtc D/PCRTCClient: Closing peer connection.
+12-13 11:34:44.891 5828-5908/org.appspot.apprtc I/CallRTCClient: CallRTCClient: Dropping frame in proxy because target is null.
+12-13 11:34:44.897 5828-5894/org.appspot.apprtc I/libjingle: (peerconnection.cc:2476): Session: 1922599585660833087 Old state: kStable New state: kClosed
+12-13 11:34:44.897 5828-5894/org.appspot.apprtc D/PCRTCClient: IceGatheringState: COMPLETE
+12-13 11:34:44.898 5828-5894/org.appspot.apprtc D/PCRTCClient: SignalingState: CLOSED
+12-13 11:34:44.898 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvideoengine.cc:1297): SetSink: ssrc:148639977 nullptr
+12-13 11:34:44.898 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvideoengine.cc:1297): SetSink: ssrc:148639977 nullptr
+12-13 11:34:44.898 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=615947687a576841324e7943, use_candidate=0, nomination=0
+12-13 11:34:44.899 5828-5893/org.appspot.apprtc I/libjingle: (channel.cc:697): Channel disabled
+12-13 11:34:44.899 5828-5893/org.appspot.apprtc I/libjingle: (video_send_stream.cc:614): VideoSendStream::Stop
+12-13 11:34:44.899 5828-5893/org.appspot.apprtc I/libjingle: (channel.cc:1668): Changing video state, send=0
+12-13 11:34:44.899 5828-5905/org.appspot.apprtc I/libjingle: (video_send_stream.cc:900): VideoSendStream::Stop
+12-13 11:34:44.900 5828-5905/org.appspot.apprtc W/libjingle: (rtp_rtcp_impl.cc:388): Failed to send RTCP BYE
+12-13 11:34:44.900 5828-5905/org.appspot.apprtc I/libjingle: (bitrate_allocator.cc:202): UpdateAllocationLimits : total_requested_min_bitrate: 0bps, total_requested_padding_bitrate: 0bps
+12-13 11:34:44.900 5828-5892/org.appspot.apprtc I/libjingle: (srtptransport.cc:280): The params in SRTP transport are reset.
+12-13 11:34:44.900 5828-5892/org.appspot.apprtc I/libjingle: (dtlssrtptransport.cc:67): Setting RTCP Transport on null transport 0
+12-13 11:34:44.900 5828-5892/org.appspot.apprtc I/libjingle: (dtlssrtptransport.cc:72): Setting RTP Transport on null transport 0
+12-13 11:34:44.901 5828-5892/org.appspot.apprtc I/libjingle: (dtlssrtptransport.cc:67): Setting RTCP Transport on null transport 0
+12-13 11:34:44.901 5828-5892/org.appspot.apprtc I/libjingle: (dtlssrtptransport.cc:72): Setting RTP Transport on null transport 0
+12-13 11:34:44.902 5828-5893/org.appspot.apprtc I/libjingle: (video_send_stream.cc:614): VideoSendStream::Stop
+12-13 11:34:44.902 5828-5905/org.appspot.apprtc I/libjingle: (video_send_stream.cc:900): VideoSendStream::Stop
+12-13 11:34:44.919 5828-5926/org.appspot.apprtc I/libjingle: (video_stream_encoder.cc:917): Video suspend state changed to: suspended
+12-13 11:34:44.922 5828-5926/org.appspot.apprtc I/libjingle: (quality_scaler.cc:82): Stopping QP Check task.
+12-13 11:34:44.922 5828-5905/org.appspot.apprtc I/libjingle: (video_send_stream.cc:900): VideoSendStream::Stop
+12-13 11:34:44.923 5828-5905/org.appspot.apprtc I/libjingle: (video_send_stream.cc:856): ~VideoSendStreamInternal: {encoder_settings: {payload_name: VP8, payload_type: 120, encoder: (VideoEncoder)}, rtp: {ssrcs: [3968339399], rtcp_mode: RtcpMode::kCompound, max_packet_size: 1200, extensions: [{uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 1}], nack: {rtp_history_ms: 1000}, ulpfec: {ulpfec_payload_type: -1, red_payload_type: -1, red_rtx_payload_type: -1}, flexfec: {payload_type: -1, ssrc: 0, protected_media_ssrcs: []}, rtx: {ssrcs: [], payload_type: -1}, c_name: L/cgLA+IfjL3a+tV}, pre_encode_callback: nullptr, post_encode_callback: nullptr, render_delay_ms: 0, target_delay_ms: 0, suspend_below_min_bitrate: off}
+12-13 11:34:44.925 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:1154): UpdateAggregateNetworkState: aggregate_state=up
+12-13 11:34:44.925 5828-5893/org.appspot.apprtc I/libjingle: (send_side_congestion_controller.cc:247): SignalNetworkState Up
+12-13 11:34:44.944 5828-5828/org.appspot.apprtc D/AppRTCBluetoothManager: stop: BT state=HEADSET_UNAVAILABLE
+12-13 11:34:44.945 5828-5828/org.appspot.apprtc D/AppRTCBluetoothManager: stopScoAudio: BT state=HEADSET_UNAVAILABLE, SCO is on: false
+12-13 11:34:44.948 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=4a62414545377144385a5862, use_candidate=0, nomination=0
+12-13 11:34:44.948 5828-5828/org.appspot.apprtc D/AppRTCBluetoothManager: cancelTimer
+12-13 11:34:44.949 5828-5926/org.appspot.apprtc W/art: Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[38,tid=5926,Native,Thread*=0xa219cb00,peer=0x130160a0,"EncoderQueue - 5926"]
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:251): WebRTC.Video.InputWidthInPixels 325
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:252): WebRTC.Video.InputHeightInPixels 244
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:258): WebRTC.Video.InputFramesPerSecond, periodic_samples:803, {min:7, avg:16, max:16}
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:269): WebRTC.Video.SentWidthInPixels 325
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:270): WebRTC.Video.SentHeightInPixels 244
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:276): WebRTC.Video.SentFramesPerSecond, periodic_samples:803, {min:2, avg:14, max:16}
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:295): WebRTC.Video.SentToInputFpsRatioPercent 88
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:304): WebRTC.Video.EncodeTimeInMs 32
+12-13 11:34:44.952 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:311): WebRTC.Video.KeyFramesSentInPermille 0
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:320): WebRTC.Video.QualityLimitedResolutionInPercent 0
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:439): WebRTC.Video.SentPacketsLostInPercent 0
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:487): WebRTC.Video.NumberOfPauseEvents 0
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:495): WebRTC.Video.PausedTimeInPercent 0
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:520): WebRTC.Video.BitrateSentInBps, periodic_samples:803, {min:14976, avg:406680, max:835552}
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:527): WebRTC.Video.MediaBitrateSentInBps, periodic_samples:803, {min:14576, avg:392656, max:816376}
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:535): WebRTC.Video.PaddingBitrateSentInBps, periodic_samples:803, {min:0, avg:24, max:17024}
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:544): WebRTC.Video.RetransmittedBitrateSentInBps, periodic_samples:803, {min:0, avg:6208, max:399136}
+12-13 11:34:44.953 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:572): Frames encoded 22452
+12-13 11:34:44.954 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:573): WebRTC.Video.DroppedFrames.Capturer 0
+12-13 11:34:44.954 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:577): WebRTC.Video.DroppedFrames.EncoderQueue 0
+12-13 11:34:44.954 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:581): WebRTC.Video.DroppedFrames.Encoder 1528
+12-13 11:34:44.955 5828-5893/org.appspot.apprtc I/libjingle: (send_statistics_proxy.cc:585): WebRTC.Video.DroppedFrames.Ratelimiter 503
+12-13 11:34:44.955 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:1154): UpdateAggregateNetworkState: aggregate_state=up
+12-13 11:34:44.955 5828-5893/org.appspot.apprtc I/libjingle: (send_side_congestion_controller.cc:247): SignalNetworkState Up
+12-13 11:34:44.956 5828-5908/org.appspot.apprtc I/libjingle: (videoadapter.cc:242): Frame size changed: scaled 24269 / out 24484 / in 24484 Changes: 3 Input: 640x480 Scale: 1/1 Output: 640x480 i62500000
+12-13 11:34:44.956 5828-5893/org.appspot.apprtc I/libjingle: (video_receive_stream.cc:155): ~VideoReceiveStream: {decoders: [{decoder: (VideoDecoder), payload_type: 120, payload_name: VP8, codec_params: {}}, {decoder: (VideoDecoder), payload_type: 121, payload_name: VP9, codec_params: {}}], rtp: {remote_ssrc: 148639977, local_ssrc: 3968339399, rtcp_mode: RtcpMode::kCompound, rtcp_xr: {receiver_reference_time_report: off}, remb: on, transport_cc: off, nack: {rtp_history_ms: 1000}, ulpfec_payload_type: -1, red_type: -1, rtx_ssrc: 0, rtx_payload_types: {-1 (pt) -> 121 (apt), }, extensions: [{uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 1}, {uri: urn:ietf:params:rtp-hdrext:toffset, id: 2}]}, renderer: (renderer), render_delay_ms: 10, sync_group: {8c61c109-cc87-4afd-82bf-e06bcf570dea}, pre_decode_callback: nullptr, target_delay_ms: 0}
+12-13 11:34:44.957 5828-5908/org.appspot.apprtc I/CallRTCClient: CallRTCClient: Dropping frame in proxy because target is null.
+12-13 11:34:44.961 5828-5828/org.appspot.apprtc D/BluetoothHeadset: Proxy object disconnected
+12-13 11:34:44.963 5828-5828/org.appspot.apprtc D/AppRTCBluetoothManager: stop done: BT state=UNINITIALIZED
+12-13 11:34:44.968 5828-5927/org.appspot.apprtc W/art: Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[37,tid=5927,Native,Thread*=0xa00fcc00,peer=0x12fdf0a0,"IncomingVideoSt - 5927"]
+12-13 11:34:44.969 5828-5839/org.appspot.apprtc I/art: Background sticky concurrent mark sweep GC freed 60839(2MB) AllocSpace objects, 0(0B) LOS objects, 35% free, 4MB/7MB, paused 3.877ms total 148.466ms
+12-13 11:34:44.976 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:134): WebRTC.Video.ReceiveStreamLifetimeInSeconds 1609
+12-13 11:34:44.976 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:145): WebRTC.Video.ReceivedPacketsLostInPercent 0
+12-13 11:34:44.976 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:163): WebRTC.Video.AVSyncOffsetInMs 48
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:169): WebRTC.Video.RtpToNtpFreqOffsetInKhz, periodic_samples:39, {min:0, avg:0, max:0}
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:181): WebRTC.Video.KeyFramesReceivedInPermille 0
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:188): WebRTC.Video.Decoded.Vp8.Qp 17
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:193): WebRTC.Video.DecodeTimeInMs 19
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:199): WebRTC.Video.JitterBufferDelayInMs 43
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:205): WebRTC.Video.TargetDelayInMs 134
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:211): WebRTC.Video.CurrentDelayInMs 132
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:263): WebRTC.Video.EndToEndDelayInMs 175
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:270): WebRTC.Video.EndToEndDelayMaxInMs 3621
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:279): WebRTC.Video.InterframeDelayInMs 33
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:287): WebRTC.Video.InterframeDelayMaxInMs 5574
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:297): WebRTC.Video.InterframeDelay95PercentileInMs 47
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:305): WebRTC.Video.ReceivedWidthInPixels 638
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:313): WebRTC.Video.ReceivedHeightInPixels 478
+12-13 11:34:44.977 5828-5893/org.appspot.apprtc I/libjingle: (receive_statistics_proxy.cc:371): WebRTC.Video.MediaBitrateReceivedInKbps 1099
+12-13 11:34:44.978 5828-5893/org.appspot.apprtc I/libjingle: (channel.cc:163): Destroyed channel: sdparta_1
+12-13 11:34:44.980 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvoiceengine.cc:2017): SetOutputVolume() to 0 for recv stream with ssrc 2235922159
+12-13 11:34:44.980 5828-5893/org.appspot.apprtc I/libjingle: (channel.cc:697): Channel disabled
+12-13 11:34:44.980 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvoiceengine.cc:1248): Stopping playout for channel #0
+12-13 11:34:44.981 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:762): StopPlayout
+12-13 11:34:44.981 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:194): Playing
+12-13 11:34:44.981 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:188): StopPlayout
+12-13 11:34:44.981 5828-5893/org.appspot.apprtc D/AudioTrackJni: StopPlayout@[tid=5893]
+12-13 11:34:44.981 5828-5893/org.appspot.apprtc I/WebRtcAudioTrack: WebRtcAudioTrack: stopPlayout
+12-13 11:34:44.981 5828-5893/org.appspot.apprtc I/WebRtcAudioTrack: WebRtcAudioTrack: stopThread
+12-13 11:34:44.982 5828-5893/org.appspot.apprtc I/WebRtcAudioTrack: WebRtcAudioTrack: Stopping the AudioTrackThread...
+12-13 11:34:44.997 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=447247773334547a6b4a7347, use_candidate=0, nomination=0
+12-13 11:34:45.019 5828-5908/org.appspot.apprtc I/CallRTCClient: CallRTCClient: Dropping frame in proxy because target is null.
+12-13 11:34:45.029 5828-5828/org.appspot.apprtc D/AppRTCAudioManager: Abandoned audio focus for VOICE_CALL streams
+12-13 11:34:45.029 5828-5828/org.appspot.apprtc D/AppRTCProximitySensor: stop@[name=main, id=1]
+12-13 11:34:45.029 5828-5828/org.appspot.apprtc D/AppRTCAudioManager: AudioManager stopped
+12-13 11:34:45.040 5828-5923/org.appspot.apprtc I/WebRtcAudioTrack: WebRtcAudioTrack: Calling AudioTrack.stop...
+12-13 11:34:45.045 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=53644a6d7378364256646c51, use_candidate=0, nomination=0
+12-13 11:34:45.063 5828-5908/org.appspot.apprtc I/CameraStatistics: CameraStatistics: Camera fps: 16.
+12-13 11:34:45.093 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=753263696353437534354e48, use_candidate=0, nomination=0
+12-13 11:34:45.096 5828-5908/org.appspot.apprtc I/CallRTCClient: CallRTCClient: Dropping frame in proxy because target is null.
+12-13 11:34:45.097 5828-5923/org.appspot.apprtc I/WebRtcAudioTrack: WebRtcAudioTrack: AudioTrack.stop is done.
+12-13 11:34:45.098 5828-5893/org.appspot.apprtc I/WebRtcAudioTrack: WebRtcAudioTrack: AudioTrackThread has now been stopped.
+12-13 11:34:45.098 5828-5893/org.appspot.apprtc I/WebRtcAudioTrack: WebRtcAudioTrack: releaseAudioResources
+12-13 11:34:45.101 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_buffer.cc:146): StopPlayout
+12-13 11:34:45.101 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_buffer.cc:152): total playout time: 1609985
+12-13 11:34:45.101 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:766): output: 0
+12-13 11:34:45.106 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:793): StopRecording
+12-13 11:34:45.106 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:209): StopRecording
+12-13 11:34:45.106 5828-5893/org.appspot.apprtc D/AudioRecordJni: StopRecording@[tid=5893]
+12-13 11:34:45.106 5828-5893/org.appspot.apprtc I/WebRtcAudioRecord: WebRtcAudioRecord: stopRecording
+12-13 11:34:45.106 5828-5893/org.appspot.apprtc I/WebRtcAudioRecord: WebRtcAudioRecord: stopThread
+12-13 11:34:45.142 5828-5892/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa02b5800:sdparta_0:PS5WBBrq:1:0:local:udp:192.168.2.x:38303->bz8XsLzr:1:2122252543:local:udp:192.168.2.x:44575|CRwI|1|0|9115005270282354174|21]: Sent STUN ping, id=552f784e305774684f587942, use_candidate=0, nomination=0
+12-13 11:34:45.147 5828-5893/org.appspot.apprtc I/WebRtcAudioEffects: WebRtcAudioEffects: release
+12-13 11:34:45.152 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_buffer.cc:160): StopRecording
+12-13 11:34:45.153 5828-5908/org.appspot.apprtc I/CallRTCClient: CallRTCClient: Dropping frame in proxy because target is null.
+12-13 11:34:45.156 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_buffer.cc:180): HISTOGRAM(WebRTC.Audio.RecordedOnlyZeros): 0
+12-13 11:34:45.157 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_buffer.cc:183): total recording time: 1609671
+12-13 11:34:45.157 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:797): output: 0
+12-13 11:34:45.157 5828-5893/org.appspot.apprtc I/libjingle: (channel.cc:1414): Changing voice state, recv=0 send=0
+12-13 11:34:45.157 5828-5892/org.appspot.apprtc I/libjingle: (srtptransport.cc:280): The params in SRTP transport are reset.
+12-13 11:34:45.157 5828-5892/org.appspot.apprtc I/libjingle: (dtlssrtptransport.cc:67): Setting RTCP Transport on null transport 0
+12-13 11:34:45.157 5828-5892/org.appspot.apprtc I/libjingle: (dtlssrtptransport.cc:72): Setting RTP Transport on null transport 0
+12-13 11:34:45.158 5828-5892/org.appspot.apprtc I/libjingle: (dtlssrtptransport.cc:67): Setting RTCP Transport on null transport 0
+12-13 11:34:45.158 5828-5892/org.appspot.apprtc I/libjingle: (dtlssrtptransport.cc:72): Setting RTP Transport on null transport 0
+12-13 11:34:45.159 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvoiceengine.cc:1856): RemoveSendStream: 2214605001
+12-13 11:34:45.159 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:793): StopRecording
+12-13 11:34:45.159 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:209): StopRecording
+12-13 11:34:45.159 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:797): output: 0
+12-13 11:34:45.159 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvoiceengine.cc:1873): Removing audio send stream 2214605001 with VoiceEngine channel #1.
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:793): StopRecording
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:209): StopRecording
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:797): output: 0
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:793): StopRecording
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:209): StopRecording
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:797): output: 0
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:1154): UpdateAggregateNetworkState: aggregate_state=up
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (send_side_congestion_controller.cc:247): SignalNetworkState Up
+12-13 11:34:45.160 5828-5893/org.appspot.apprtc I/libjingle: (audio_send_stream.cc:123): ~AudioSendStream: {rtp: {ssrc: 2214605001, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}], nack: {rtp_history_ms: 0}, c_name: L/cgLA+IfjL3a+tV}, send_transport: (Transport), voe_channel_id: 1, min_bitrate_bps: -1, max_bitrate_bps: -1, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, payload_type: 109, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {maxplaybackrate: 48000, stereo: 1, useinbandfec: 1}}}}
+12-13 11:34:45.163 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:793): StopRecording
+12-13 11:34:45.163 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:209): StopRecording
+12-13 11:34:45.163 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:797): output: 0
+12-13 11:34:45.163 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:762): StopPlayout
+12-13 11:34:45.163 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:194): Playing
+12-13 11:34:45.163 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:766): output: 0
+12-13 11:34:45.163 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvoiceengine.cc:1933): RemoveRecvStream: 2235922159
+12-13 11:34:45.164 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvoiceengine.cc:1947): Removing audio receive stream 2235922159 with VoiceEngine channel #0.
+12-13 11:34:45.164 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:1154): UpdateAggregateNetworkState: aggregate_state=down
+12-13 11:34:45.164 5828-5893/org.appspot.apprtc I/libjingle: (send_side_congestion_controller.cc:247): SignalNetworkState Down
+12-13 11:34:45.164 5828-5893/org.appspot.apprtc I/libjingle: (send_side_congestion_controller.cc:440): Bitrate estimate state changed, BWE: 0 bps.
+12-13 11:34:45.164 5828-5893/org.appspot.apprtc I/libjingle: (audio_receive_stream.cc:120): ~AudioReceiveStream: {rtp: {remote_ssrc: 2235922159, local_ssrc: 2214605001, transport_cc: off, nack: {rtp_history_ms: 0}, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}]}, rtcp_send_transport: (Transport), voe_channel_id: 0, sync_group: {8c61c109-cc87-4afd-82bf-e06bcf570dea}}
+12-13 11:34:45.165 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:793): StopRecording
+12-13 11:34:45.166 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:209): StopRecording
+12-13 11:34:45.166 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:797): output: 0
+12-13 11:34:45.166 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:762): StopPlayout
+12-13 11:34:45.166 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:194): Playing
+12-13 11:34:45.166 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:766): output: 0
+12-13 11:34:45.166 5828-5893/org.appspot.apprtc I/libjingle: (channel.cc:163): Destroyed channel: sdparta_0
+12-13 11:34:45.168 5828-5892/org.appspot.apprtc I/libjingle: (opensslstreamadapter.cc:889): Cleanup
+12-13 11:34:45.169 5828-5892/org.appspot.apprtc I/NetworkMonitor: NetworkMonitor: Stop monitoring from native observer -1596139520
+12-13 11:34:45.170 5828-5892/org.appspot.apprtc I/NetworkMonitorAutoDetect: NetworkMonitorAutoDetect: Unregister network callback
+12-13 11:34:45.171 5828-5892/org.appspot.apprtc I/NetworkMonitorAutoDetect: NetworkMonitorAutoDetect: Unregister network callback
+12-13 11:34:45.177 5828-5907/org.appspot.apprtc I/libjingle: (paced_sender.cc:92): PacedSender paused.
+12-13 11:34:45.181 5828-5893/org.appspot.apprtc I/libjingle: (paced_sender.cc:312): ProcessThreadAttached 0x0
+12-13 11:34:45.182 5828-5893/org.appspot.apprtc I/libjingle: (paced_sender.cc:312): ProcessThreadAttached 0x0
+12-13 11:34:45.184 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:528): WebRTC.Call.EstimatedSendBitrateInKbps, periodic_samples:804, {min:10, avg:583, max:1137}
+12-13 11:34:45.185 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:536): WebRTC.Call.PacerBitrateInKbps, periodic_samples:804, {min:30, avg:585, max:1137}
+12-13 11:34:45.185 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:558): WebRTC.Call.VideoBitrateReceivedInBps, periodic_samples:804, {min:149648, avg:1125312, max:1465680}
+12-13 11:34:45.185 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:566): WebRTC.Call.AudioBitrateReceivedInBps, periodic_samples:804, {min:13344, avg:47624, max:57048}
+12-13 11:34:45.185 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:574): WebRTC.Call.RtcpBitrateReceivedInBps, periodic_samples:803, {min:1344, avg:10384, max:43680}
+12-13 11:34:45.185 5828-5893/org.appspot.apprtc I/libjingle: (call.cc:582): WebRTC.Call.BitrateReceivedInBps, periodic_samples:804, {min:209648, avg:1183312, max:1526912}
+12-13 11:34:45.186 5828-5893/org.appspot.apprtc I/libjingle: (rtc_event_log.cc:212): Stopping WebRTC event log.
+12-13 11:34:45.187 5828-5893/org.appspot.apprtc I/libjingle: (rtc_event_log.cc:229): WebRTC event log successfully stopped.
+12-13 11:34:45.216 5828-5908/org.appspot.apprtc I/CallRTCClient: CallRTCClient: Dropping frame in proxy because target is null.
+12-13 11:34:45.250 5828-5894/org.appspot.apprtc I/libjingle: (messagequeue.cc:535): Message took 358ms to dispatch. Posted from: Close@../../../../usr/local/google/home/sakal/code/webrtc/src/api/peerconnectionproxy.h:139
+12-13 11:34:45.254 5828-5894/org.appspot.apprtc W/libjingle: (rtpsender.cc:283): ClearAudioSend: No audio channel exists.
+12-13 11:34:45.254 5828-5894/org.appspot.apprtc W/libjingle: (rtpsender.cc:477): SetVideoSend: No video channel exists.
+12-13 11:34:45.255 5828-5894/org.appspot.apprtc I/libjingle: (peerconnection.cc:756): Session: 1922599585660833087 is destroyed.
+12-13 11:34:45.256 5828-5894/org.appspot.apprtc I/libjingle: (dtmfsender.cc:231): The Dtmf provider is deleted. Clear the sending queue.
+12-13 11:34:45.259 5828-5876/org.appspot.apprtc D/PCRTCClient: Closing audio source.
+12-13 11:34:45.259 5828-5876/org.appspot.apprtc D/PCRTCClient: Stopping capture.
+12-13 11:34:45.259 5828-5876/org.appspot.apprtc I/CameraCapturer: CameraCapturer: Stop capture
+12-13 11:34:45.260 5828-5876/org.appspot.apprtc I/CameraCapturer: CameraCapturer: Stop capture: Nulling session
+12-13 11:34:45.261 5828-5876/org.appspot.apprtc I/libjingle: (androidvideotracksource_jni.cc:111): AndroidVideoTrackSourceObserve_nativeCapturerStopped
+12-13 11:34:45.261 5828-5908/org.appspot.apprtc I/Camera1Session: Camera1Session: Stop camera1 session on camera 0
+12-13 11:34:45.261 5828-5876/org.appspot.apprtc I/CameraCapturer: CameraCapturer: Stop capture done
+12-13 11:34:45.261 5828-5908/org.appspot.apprtc I/Camera1Session: Camera1Session: Stop internal
+12-13 11:34:45.261 5828-5876/org.appspot.apprtc I/CameraCapturer: CameraCapturer: dispose
+12-13 11:34:45.261 5828-5908/org.appspot.apprtc I/SurfaceTextureHelper: SurfaceTextureHelper: stopListening()
+12-13 11:34:45.262 5828-5876/org.appspot.apprtc I/CameraCapturer: CameraCapturer: Stop capture
+12-13 11:34:45.262 5828-5876/org.appspot.apprtc I/CameraCapturer: CameraCapturer: Stop capture: No session open
+12-13 11:34:45.262 5828-5876/org.appspot.apprtc I/CameraCapturer: CameraCapturer: Stop capture done
+12-13 11:34:45.263 5828-5876/org.appspot.apprtc D/PCRTCClient: Closing video source.
+12-13 11:34:45.263 5828-5894/org.appspot.apprtc I/libjingle: (surfacetexturehelper_jni.cc:40): SurfaceTextureHelper dtor
+12-13 11:34:45.264 5828-5894/org.appspot.apprtc I/SurfaceTextureHelper: SurfaceTextureHelper: dispose()
+12-13 11:34:45.737 5828-5908/org.appspot.apprtc I/Camera1Session: Camera1Session: Stop done
+12-13 11:34:45.738 5828-5908/org.appspot.apprtc I/GlShader: GlShader: Deleting shader.
+12-13 11:34:45.740 5828-5876/org.appspot.apprtc D/PCRTCClient: Closing peer connection factory.
+12-13 11:34:45.740 5828-5894/org.appspot.apprtc I/libjingle: (messagequeue.cc:535): Message took 478ms to dispatch. Posted from: ~VideoTrackSourceProxyWithInternal@../../../../usr/local/google/home/sakal/code/webrtc/src/api/videosourceproxy.h:23
+12-13 11:34:45.742 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvideoengine.cc:537): WebRtcVideoEngine::~WebRtcVideoEngine
+12-13 11:34:45.742 5828-5893/org.appspot.apprtc I/libjingle: (webrtcvoiceengine.cc:250): WebRtcVoiceEngine::~WebRtcVoiceEngine
+12-13 11:34:45.743 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:762): StopPlayout
+12-13 11:34:45.743 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:194): Playing
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:766): output: 0
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:793): StopRecording
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:209): StopRecording
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:797): output: 0
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:811): RegisterAudioCallback
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_buffer.cc:86): RegisterAudioCallback
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:300): Terminate
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:77): Terminate
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc D/AudioRecordJni: Terminate@[tid=5893]
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc D/AudioRecordJni: StopRecording@[tid=5893]
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc D/AudioTrackJni: Terminate@[tid=5893]
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc D/AudioTrackJni: StopPlayout@[tid=5893]
+12-13 11:34:45.744 5828-5893/org.appspot.apprtc D/AudioManager: Close@[tid=5893]
+12-13 11:34:45.745 5828-5893/org.appspot.apprtc I/WebRtcAudioManager: WebRtcAudioManager: dispose@[name=Thread-192, id=192]
+12-13 11:34:45.752 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_impl.cc:269): ~AudioDeviceModuleImpl
+12-13 11:34:45.752 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_template.h:47): ~AudioDeviceTemplate
+12-13 11:34:45.752 5828-5893/org.appspot.apprtc D/AudioRecordJni: ~dtor@[tid=5893]
+12-13 11:34:45.752 5828-5893/org.appspot.apprtc D/AudioRecordJni: Terminate@[tid=5893]
+12-13 11:34:45.752 5828-5893/org.appspot.apprtc D/AudioRecordJni: StopRecording@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/JVM: GlobalRef::dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/JVM: NativeRegistration::dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/JVM: JNIEnvironment::dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/JVM: AttachCurrentThreadIfNeeded::dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/AudioTrackJni: ~dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/AudioTrackJni: Terminate@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/AudioTrackJni: StopPlayout@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/JVM: GlobalRef::dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/JVM: NativeRegistration::dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/JVM: JNIEnvironment::dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc D/JVM: AttachCurrentThreadIfNeeded::dtor@[tid=5893]
+12-13 11:34:45.753 5828-5893/org.appspot.apprtc I/libjingle: (audio_device_buffer.cc:80): AudioDeviceBuffer::~dtor
+12-13 11:34:45.754 5828-5893/org.appspot.apprtc D/AudioManager: ~dtor@[tid=5893]
+12-13 11:34:45.754 5828-5893/org.appspot.apprtc D/AudioManager: Close@[tid=5893]
+12-13 11:34:45.754 5828-5893/org.appspot.apprtc D/AudioManager: JavaAudioManager::dtor@[tid=5893]
+12-13 11:34:45.754 5828-5893/org.appspot.apprtc D/JVM: GlobalRef::dtor@[tid=5893]
+12-13 11:34:45.754 5828-5893/org.appspot.apprtc D/JVM: NativeRegistration::dtor@[tid=5893]
+12-13 11:34:45.754 5828-5893/org.appspot.apprtc D/JVM: JNIEnvironment::dtor@[tid=5893]
+12-13 11:34:45.754 5828-5893/org.appspot.apprtc D/JVM: AttachCurrentThreadIfNeeded::dtor@[tid=5893]
+12-13 11:34:45.754 5828-5893/org.appspot.apprtc D/JVM: Detaching thread from JVM
+12-13 11:34:45.756 5828-5894/org.appspot.apprtc W/art: Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[30,tid=5894,Native,Thread*=0xa21fa300,peer=0x12e8c0a0,"signaling_threa - 5894"]
+12-13 11:34:45.760 5828-5892/org.appspot.apprtc W/art: Native thread exiting without having called DetachCurrentThread (maybe it's going to use a pthread_key_create destructor?): Thread[29,tid=5892,Native,Thread*=0xa219bc00,peer=0x12e7e100,"network_thread - 5892"]
+12-13 11:34:45.761 5828-5876/org.appspot.apprtc D/PCRTCClient: Closing peer connection done.
+12-13 11:34:45.766 5828-5876/org.appspot.apprtc D/PCRTCClient: IceConnectionState: CLOSED
+12-13 11:34:45.846 5828-5828/org.appspot.apprtc I/SurfaceViewRenderer: SurfaceViewRenderer: fullscreen_video_view: onMeasure(). New size: 1024x552
+12-13 11:34:45.847 5828-5874/org.appspot.apprtc D/WSChannelRTCClient: Disconnecting WebSocket done.
+12-13 11:34:45.855 5828-5828/org.appspot.apprtc I/EglRenderer: EglRenderer: fullscreen_video_viewsetLayoutAspectRatio: 1.8550725
+12-13 11:34:45.856 5828-5828/org.appspot.apprtc I/SurfaceViewRenderer: SurfaceViewRenderer: fullscreen_video_view: updateSurfaceSize. Layout size: 1024x552, frame size: 640x480, requested surface size: 640x345, old surface size: 640x375
+12-13 11:34:45.865 5828-5828/org.appspot.apprtc I/EglRenderer: EglRenderer: pip_video_viewsetLayoutAspectRatio: 1.3333334
+
+
+
+12-13 15:18:35.146 12914-13116/org.appspot.apprtc I/libjingle: (port.cc:1262): Jingle:Conn[0xa186b400:sdparta_0:19Gr0jCL:1:0:local:udp:192.168.2.x:35903->HGKTYgCm:1:2122252543:local:udp:192.168.2.x:49240|CRWI|1|0|9115005270282354174|22]: Unwritable after 5 ping failures and 5031 ms without a response, ms since last received ping=8374 ms since last received data=417 rtt=100
+12-13 15:18:35.147 12914-13116/org.appspot.apprtc E/libjingle: (stunport.cc:279): Jingle:Port[0x9ef86600:sdparta_0:1:0:local:Net[wlan0:192.168.2.x/24:Wifi]]: UDP send of 100 bytes failed with error 11
+12-13 15:18:35.147 12914-13116/org.appspot.apprtc W/libjingle: (port.cc:1037): Jingle:Conn[0xa186b400:sdparta_0:19Gr0jCL:1:0:local:udp:192.168.2.x:35903->HGKTYgCm:1:2122252543:local:udp:192.168.2.x:49240|CRwI|1|0|9115005270282354174|22]: Failed to send STUN ping  err=-1 id=6f654b6f435874347a6d5030
+12-13 15:18:35.147 12914-13116/org.appspot.apprtc I/libjingle: (port.cc:1500): Jingle:Conn[0xa186b400:sdparta_0:19Gr0jCL:1:0:local:udp:192.168.2.x:35903->HGKTYgCm:1:2122252543:local:udp:192.168.2.x:49240|CRwI|1|0|9115005270282354174|22]: Sent STUN ping, id=6f654b6f435874347a6d5030, use_candidate=0, nomination=0
+
+
+
+
+2-20 10:58:31.910 31353-31353/com.ayhalo.mediacodecdemo D/FileAVCOne: initMediaCodec: {csd-1=java.nio.ByteArrayBuffer[position=0,limit=9,capacity=9], mime=video/avc, frame-rate=25, height=1080, width=1920, max-input-size=261414, durationUs=24200000, csd-0=java.nio.ByteArrayBuffer[position=0,limit=35,capacity=35]}
+12-20 10:58:31.910 31353-31353/com.ayhalo.mediacodecdemo D/FileAVCOne: run: video/avc
+12-20 10:58:31.917 31353-31400/com.ayhalo.mediacodecdemo I/OMXClient: Using client-side OMX mux.
+12-20 10:58:31.926 31353-31399/com.ayhalo.mediacodecdemo I/MediaCodec: [OMX.allwinner.video.decoder.avc] setting surface generation to 32105474
+12-20 10:58:31.939 31353-31353/com.ayhalo.mediacodecdemo D/FileAVCOne: initMediaCodec: {max-input-size=552, aac-profile=2, mime=audio/mp4a-latm, durationUs=24213333, csd-0=java.nio.ByteArrayBuffer[position=0,limit=2,capacity=2], channel-count=2, sample-rate=48000}
+12-20 10:58:31.939 31353-31353/com.ayhalo.mediacodecdemo D/FileAVCOne: run: audio/mp4a-latm
+12-20 10:58:31.943 31353-31400/com.ayhalo.mediacodecdemo D/SurfaceUtils: set up nativeWindow 0xa376e008 for 1920x1080, color 0x32315659, rotation 0, usage 0x2d00
+12-20 10:58:32.210 31353-31400/com.ayhalo.mediacodecdemo D/SurfaceUtils: set up nativeWindow 0xa376e008 for 1920x1088, color 0x32315659, rotation 0, usage 0x2d00
+12-20 10:58:55.987 31353-31404/com.ayhalo.mediacodecdemo D/FileAVCOne: InputBuffer BUFFER_FLAG_END_OF_STREAM
+
+
+12-20 11:14:18.377 32250-32296/org.appspot.apprtc V/StudioProfiler: Acquiring Application for Events
+12-20 11:14:18.463 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/jpeg
+12-20 11:14:18.467 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/mpeg1
+12-20 11:14:18.474 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unrecognized profile/level 32768/2 for video/mp4v-es
+12-20 11:14:18.480 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/x-vnd.on2.vp6
+12-20 11:14:18.487 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/wvc1
+12-20 11:14:18.490 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/x-ms-mpeg4v1
+12-20 11:14:18.493 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/x-ms-mpeg4v2
+12-20 11:14:18.497 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/divx
+12-20 11:14:18.500 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/xvid
+12-20 11:14:18.504 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/flv1
+12-20 11:14:18.506 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/rvg2
+12-20 11:14:18.509 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/wmv1
+12-20 11:14:18.512 32250-32250/org.appspot.apprtc W/VideoCapabilities: Unsupported mime video/wmv2
+12-20 11:14:18.542 32250-32250/org.appspot.apprtc I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+12-20 11:14:18.547 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.mp3.decoder
+12-20 11:14:18.547 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/mpeg
+12-20 11:14:18.547 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.amrnb.decoder
+12-20 11:14:18.547 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/3gpp
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.amrwb.decoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/amr-wb
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.aac.decoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/mp4a-latm
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.g711.alaw.decoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/g711-alaw
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.g711.mlaw.decoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/g711-mlaw
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.vorbis.decoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/vorbis
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.opus.decoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/opus
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.raw.decoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/raw
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.aac.encoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.amrnb.encoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.amrwb.encoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.flac.encoder
+12-20 11:14:18.548 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.gsm.decoder
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: audio/gsm
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.avc
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/avc
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.mjpeg
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/jpeg
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.mpeg1
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/mpeg1
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.mpeg2
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/mpeg2
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.mpeg4
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/mp4v-es
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.h263
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/3gpp
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.vp6
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/x-vnd.on2.vp6
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.vp8
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/x-vnd.on2.vp8
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.vc1
+12-20 11:14:18.549 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/wvc1
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.msmpeg4v1
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/x-ms-mpeg4v1
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.msmpeg4v2
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/x-ms-mpeg4v2
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.divx
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/divx
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.xvid
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/xvid
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.s263
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/flv1
+12-20 11:14:18.550 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.rxg2
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/rvg2
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.wmv1
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/wmv1
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.decoder.wmv2
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/wmv2
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.allwinner.video.encoder.avc
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.mpeg4.decoder
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/mp4v-es
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.h263.decoder
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/3gpp
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.h264.decoder
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/avc
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.hevc.decoder
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/hevc
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.vp8.decoder
+12-20 11:14:18.551 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/x-vnd.on2.vp8
+12-20 11:14:18.552 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.vp9.decoder
+12-20 11:14:18.552 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: video/x-vnd.on2.vp9
+12-20 11:14:18.552 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.h263.encoder
+12-20 11:14:18.552 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.h264.encoder
+12-20 11:14:18.552 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.mpeg4.encoder
+12-20 11:14:18.552 32250-32250/org.appspot.apprtc D/ConnectActivity: checkMediaDecoder: OMX.google.vp8.encoder
+
+
+12-28 09:56:32.727 2247-2355/org.appspot.apprtc D/RoomRTCClient: Room response: {"params": {"client_id": "59797732", "turn_server_override": [{"urls": ["turn:blueslug.cc"], "username": "greendog", "credential": "greendogpassword"}, {"urls": ["stun:blueslug.cc"]}], "include_loopback_js": "", "error_messages": [], "offer_options": "{}", "version_info": "{\"branch\": \"master\", \"time\": \"Mon Nov 13 15:00:35 2017 +0100\", \"gitHash\": \"220922186343cdd893abef3fc6bc7397bd811134\"}", "turn_url": "https://blueslug.cc/turn?username=59797732&key=4080218913", "wss_url": "ws://192.168.2.246:8089/ws", "room_id": "16", "callstats_params": "{\"appId\": \"none\", \"appSecret\": \"none\"}", "bypass_join_confirmation": "false", "is_loopback": "false", "ice_server_url": "https://networktraversal.googleapis.com/v1alpha/iceconfig?key=none", "is_initiator": "true", "warning_messages": [], "media_constraints": "{\"video\": true, \"audio\": true}", "pc_config": "{\"iceServers\": [], \"rtcpMuxPolicy\": \"require\", \"bundlePolicy\": \"max-bundle\"}", "include_rtstats_js": "", "messages": [], "room_link": "http://192.168.2.246:8080/r/16", "wss_post_url": "http://192.168.2.246:8089", "ice_server_transports": "", "pc_constraints": "{\"optional\": []}"}, "result": "SUCCESS"}
+
+
+01-14 22:37:36.898 19922-20170/com.cfunworld.apprtc D/RoomRTCClient: Room response: {"params": {"is_initiator": "false", "room_id": "2", "media_constraints": "{\"audio\": true, \"video\": true}", "version_info": "{\"gitHash\": \"c6af0c25e9af527f71b3acdd6bfa1389d778f7bd\", \"branch\": \"master\", \"time\": \"Mon Jan 8 13:06:06 2018 +0100\"}", "error_messages": [], "messages": [], "pc_config": "{\"rtcpMuxPolicy\": \"require\", \"bundlePolicy\": \"max-bundle\", \"iceServers\": [{\"urls\": [\"turn:192.168.2.117:3478?transport=udp\", \"turn:192.168.2.117:3478?transport=tcp\"], \"username\": \"halo\", \"credential\": \"diaosi\"}]}", "offer_options": "{}", "warning_messages": [], "include_rtstats_js": "", "include_loopback_js": "", "bypass_join_confirmation": "false", "wss_post_url": "http://192.168.2.117:8089", "pc_constraints": "{\"optional\": []}", "is_loopback": "false", "room_link": "http://192.168.2.117:8080/r/2", "ice_server_transports": "", "ice_server_url": "http:192.168.2.117/v1alpha/iceconfig?key=none", "wss_url": "ws://192.168.2.117:8089/ws", "client_id": "71798419"}, "result": "SUCCESS"}

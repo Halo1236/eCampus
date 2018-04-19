@@ -9,6 +9,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/audio_device_java" />
+            <option value="$PROJECT_DIR$/base_java" />
+            <option value="$PROJECT_DIR$/libjingle_peerconnection" />
+            <option value="$PROJECT_DIR$/webrtc" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

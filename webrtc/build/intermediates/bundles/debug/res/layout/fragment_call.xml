@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/button_call_switch_camera"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/camera_switch"/>
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/call_time"-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:layout_above="@id/buttons_call_container"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginBottom="6dp"-->
+    <!--android:text="00:00"-->
+    <!--android:textColor="#bfbfbf"-->
+    <!--android:textSize="18sp" />-->
+
+    <Chronometer
+        android:id="@+id/call_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttons_call_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:format="00:00"
+        android:textColor="#bfbfbf"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_call_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_call_switch_speaker"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/tel_switch"/>
+
+
+        <ImageButton
+            android:id="@+id/button_call_disconnect"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/disconnect"/>
+
+        <ImageButton
+            android:id="@+id/button_call_toggle_mic"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/mic_open"/>
+    </LinearLayout>
+
+</RelativeLayout>

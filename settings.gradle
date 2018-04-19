@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':base_java', ':libjingle_peerconnection', ':audio_device_java', ':webrtc'
