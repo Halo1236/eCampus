@@ -1,5 +1,6 @@
 package com.ayhalo.ecampus.ui.fragment;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -7,6 +8,7 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Base64;
 import android.view.View;
 
 import com.ayhalo.ecampus.Global;
@@ -15,6 +17,7 @@ import com.ayhalo.ecampus.databases.bean.Topic;
 import com.ayhalo.ecampus.network.CallServer;
 import com.ayhalo.ecampus.network.HttpListener;
 import com.ayhalo.ecampus.network.TopicToGson;
+import com.ayhalo.ecampus.ui.activity.ArticleContentActivity;
 import com.ayhalo.ecampus.ui.adapter.ChannelAdapter;
 import com.ayhalo.ecampus.ui.base.BaseFragment;
 import com.ayhalo.ecampus.ui.widgets.OnItemClickListener;
@@ -116,7 +119,11 @@ public class NoticeFragment extends BaseFragment implements HttpListener<String>
 
     @Override
     public void onItemClick(View view, int position) {
-
+        Topic.ResultsBean resultsBean = articleList.get(position);
+        Intent intent = new Intent(getActivity(), ArticleContentActivity.class);
+        intent.putExtra("url", Base64.encodeToString(resultsBean.getArticle_url().getBytes(), Base64.DEFAULT));
+        intent.putExtra("belong",resultsBean.getBelong());
+        startActivity(intent);
     }
 
     @Override

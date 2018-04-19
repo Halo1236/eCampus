@@ -1,6 +1,7 @@
 package com.ayhalo.ecampus.ui.activity;
 
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
@@ -31,8 +32,10 @@ public class ArticleContentActivity extends BaseActivity implements HttpListener
     private TextView title;
     private TextView author;
     private TextView content;
+    private TextView toolbarTitle;
     private String article_url;
     private Request<String> newsJson;
+    private Toolbar toolbar;
 
     @Override
     protected int getLayoutId() {
@@ -47,15 +50,57 @@ public class ArticleContentActivity extends BaseActivity implements HttpListener
     @Override
     protected void initViews(Bundle savedInstanceState) {
         article_url = getIntent().getStringExtra("url");
+        toolbar = findView(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        setDisplayHomeAsUpEnabled(true);
+        toolbarTitle = findView(R.id.toolbar_title);
+        toolbarTitle.setText(getBelong(getIntent().getStringExtra("belong")));
         title = findView(R.id.iv_title);
         author = findView(R.id.iv_author);
         content = findView(R.id.iv_content);
         RichText.initCacheDir(this);
     }
 
+
     @Override
     protected void loadData() {
         getData();
+    }
+
+    private String getBelong(String belong) {
+        String publisher = "";
+        switch (belong) {
+            case "sie":
+                publisher = "信息工程学院";
+                break;
+            case "bs":
+                publisher = "商学院";
+                break;
+            case "fzxy":
+                publisher = "法政学院";
+                break;
+            case "wlxy":
+                publisher = "文理学院";
+                break;
+            case "jgxy":
+                publisher = "建筑工程学院";
+                break;
+            case "wy":
+                publisher = "外国语学院";
+                break;
+            case "jd":
+                publisher = "机电工程学院";
+                break;
+            case "art":
+                publisher = "艺术与传媒学院";
+                break;
+            case "tyb":
+                publisher = "体育部";
+                break;
+            default:
+                publisher = "宿迁学院";
+        }
+        return publisher;
     }
 
     private void getData() {

@@ -120,6 +120,7 @@ public class NewsFragment extends BaseFragment implements HttpListener<String>, 
         Topic.ResultsBean resultsBean = articleList.get(position);
         Intent intent = new Intent(getActivity(), ArticleContentActivity.class);
         intent.putExtra("url", Base64.encodeToString(resultsBean.getArticle_url().getBytes(), Base64.DEFAULT));
+        intent.putExtra("belong",resultsBean.getBelong());
         startActivity(intent);
     }
 
