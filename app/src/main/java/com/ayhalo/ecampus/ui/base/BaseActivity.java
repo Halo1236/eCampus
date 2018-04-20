@@ -41,7 +41,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         initTheme();
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
-        StatusBarUtils.compat(this);
 //        initToolBar();
         initViews(savedInstanceState);
     }

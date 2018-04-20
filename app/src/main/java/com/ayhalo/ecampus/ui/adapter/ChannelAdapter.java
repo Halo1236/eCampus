@@ -1,7 +1,9 @@
 package com.ayhalo.ecampus.ui.adapter;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.support.v7.widget.RecyclerView;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -113,6 +115,21 @@ public class ChannelAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             super(itemView);
             title = itemView.findViewById(R.id.article_title);
             publisher_time = itemView.findViewById(R.id.author_update);
+                        /*
+            * 设置水波纹背景
+            */
+            if (itemView.getBackground() == null) {
+                TypedValue typedValue = new TypedValue();
+                Resources.Theme theme = itemView.getContext().getTheme();
+                int top = itemView.getPaddingTop();
+                int bottom = itemView.getPaddingBottom();
+                int left = itemView.getPaddingLeft();
+                int right = itemView.getPaddingRight();
+                if (theme.resolveAttribute(android.R.attr.selectableItemBackground, typedValue, true)) {
+                    itemView.setBackgroundResource(typedValue.resourceId);
+                }
+                itemView.setPadding(left, top, right, bottom);
+            }
         }
     }
 }

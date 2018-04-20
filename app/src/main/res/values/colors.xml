@@ -22,6 +22,8 @@
 
     <color name="titleColor">#666666</color><!-- 头布局标题的颜色 -->
 
+    <color name="button_background">#33aaff</color>
+    <color name="button_background_select">#cc0094ff</color>
     <color name="topic_general_color">#da2b2b</color>
     <color name="tab_bg_color">#f6f6f6</color>
     <color name="divider_color">#eaeaea</color>

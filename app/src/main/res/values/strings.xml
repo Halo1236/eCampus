@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">e-Campus</string>
+
+    <string name="Splash_app_name">校园视频会议系统</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="noregister">快速注册</string>
 </resources>
