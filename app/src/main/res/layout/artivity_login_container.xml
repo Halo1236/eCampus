@@ -11,9 +11,9 @@
 
         <ImageView
             android:id="@+id/login_logo"
-            android:layout_width="150dp"
+            android:layout_width="120dp"
             android:layout_gravity="center"
-            android:layout_height="150dp" />
+            android:layout_height="120dp" />
 
         <FrameLayout
             android:id="@+id/login_container"

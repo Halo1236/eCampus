@@ -46,6 +46,26 @@
 
 
     <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:ems="19"
+        android:hint="  姓名"
+        android:maxLines="1"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <EditText
         android:id="@+id/belong"
         android:layout_width="match_parent"
         android:layout_height="40dp"

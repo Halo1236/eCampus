@@ -5,6 +5,10 @@
 /.idea/libraries
 .DS_Store
 /build
-
+/app/build
+/audio_device_java/build
+/base_java/build
+/libjingle_peerconnection/build
+/webrtc/build
 /captures
 .externalNativeBuild
