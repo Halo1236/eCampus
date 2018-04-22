@@ -14,6 +14,7 @@ import com.ayhalo.ecampus.network.CallServer;
 import com.ayhalo.ecampus.network.HttpListener;
 import com.ayhalo.ecampus.ui.base.BaseActivity;
 import com.ayhalo.ecampus.utils.LogUtils;
+import com.ayhalo.ecampus.utils.ToastUtils;
 import com.yanzhenjie.nohttp.NoHttp;
 import com.yanzhenjie.nohttp.RequestMethod;
 import com.yanzhenjie.nohttp.rest.Request;
@@ -116,18 +117,24 @@ public class ArticleContentActivity extends BaseActivity implements HttpListener
         String data = response.get();
         Article newsData = ArticleToJson.handleArticleToGson(data);
         if (newsData != null) {
-            title.setText(newsData.getResults().getTitle());
-            author.setText(String.format("%s  %s", newsData.getResults().getPublisher(), newsData.getResults().getPublish_time()));
-            content.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-            LogUtils.d(TAG, newsData.getResults().getContent());
-            RichText.fromHtml(newsData.getResults().getContent())
-                    .bind(this)
-                    .autoFix(true)
-                    .autoPlay(true)
-                    .cache(CacheType.ALL)
-                    .scaleType(ImageHolder.ScaleType.FIT_CENTER)
-                    .size(ImageHolder.MATCH_PARENT, ImageHolder.WRAP_CONTENT)
-                    .into(content);
+            if (newsData.getError().equals("true")) {
+                ToastUtils.showShort("内容显示错误，请在PC网页查看");
+                finish();
+            } else if (newsData.getError().equals("false")) {
+
+                title.setText(newsData.getResults().getTitle());
+                author.setText(String.format("%s  %s", newsData.getResults().getPublisher(), newsData.getResults().getPublish_time()));
+                content.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
+                LogUtils.d(TAG, newsData.getResults().getContent());
+                RichText.fromHtml(newsData.getResults().getContent())
+                        .bind(this)
+                        .autoFix(true)
+                        .autoPlay(true)
+                        .cache(CacheType.ALL)
+                        .scaleType(ImageHolder.ScaleType.FIT_CENTER)
+                        .size(ImageHolder.MATCH_PARENT, ImageHolder.WRAP_CONTENT)
+                        .into(content);
+            }
         }
     }
 

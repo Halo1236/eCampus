@@ -12,6 +12,7 @@
         android:background="@null"
         android:ems="11"
         android:hint="  手机号"
+        android:inputType="number"
         android:maxLines="1"
         android:textSize="14sp" />
 
@@ -30,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@null"
+        android:inputType="number"
         android:ems="19"
         android:hint="  学号/工号"
         android:maxLines="1"
@@ -91,6 +93,7 @@
         android:layout_height="40dp"
         android:background="@null"
         android:hint="  密码"
+        android:inputType="textPassword"
         android:maxLines="1"
         android:textSize="14sp" />
 
@@ -110,6 +113,7 @@
         android:layout_height="40dp"
         android:background="@null"
         android:hint="  确认密码"
+        android:inputType="textPassword"
         android:maxLines="1"
         android:textSize="14sp" />
 

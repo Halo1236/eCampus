@@ -14,4 +14,5 @@ public class Global {
     public static final int NEWSWHAT = 100;
     public static final int ARTICLEWHAT = 101;
     public static final int LOGINWHAT = 102;
+    public static final int REGISTERWHAT = 103;
 }

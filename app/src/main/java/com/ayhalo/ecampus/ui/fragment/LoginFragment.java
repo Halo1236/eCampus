@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -79,12 +80,16 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
     private void login() {
         telephone = editText_tel.getText().toString().trim();
         password = editText_passwd.getText().toString().trim();
-        String url = Global.HOST + "/api/login";
-        request = NoHttp.createStringRequest(url, RequestMethod.POST);
-        request.add("telephone", telephone);
-        request.add("password", password);
-        CallServer.getInstance().request(Global.LOGINWHAT, request,
-                getActivity(), this, false, false);
+        if (TextUtils.isEmpty(telephone) || TextUtils.isEmpty(password)) {
+            ToastUtils.showShort("手机号或密码不能为空");
+        }else{
+            String url = Global.HOST + "/api/login";
+            request = NoHttp.createStringRequest(url, RequestMethod.POST);
+            request.add("telephone", telephone);
+            request.add("password", password);
+            CallServer.getInstance().request(Global.LOGINWHAT, request,
+                    getActivity(), this, false, false);
+        }
     }
 
     private void replaceFragment(Fragment fragment) {
@@ -109,7 +114,7 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
                         startActivity(intent);
                         getActivity().finish();
                         ToastUtils.showShort("登录成功");
-                    } else if (result.getError().equals("true")){
+                    } else if (result.getError().equals("true")) {
                         ToastUtils.showShort("手机号或密码错误");
                     }
                 }
